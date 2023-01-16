@@ -1,0 +1,43 @@
+
+
+.main{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.main__grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+.main__grid__text{
+  gap: 1rem;
+}
+.main__grid__text h1{
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 3rem;
+  color: white;
+  padding: 1rem 0;
+}
+
+.main__grid__text p{
+  color: white;
+  padding: 1rem 0;
+}
+.main__grid__btn{
+  background-color: orange;
+  padding: 1rem 2.5rem;
+  border-radius: 50px;
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) { 
+  .main__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .main__grid__text h1{
+    font-size: 5rem;
+  }
+}
